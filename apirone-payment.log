@@ -1,0 +1,1304 @@
+<---------- 2017-10-17 14:40:41 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Array
+(
+    [currency] => USD
+    [value] => 99.00
+)
+Response: 
+<---------- 2017-10-17 14:40:47 ---------->
+Request: https://blockchainapi.org/api/receive?method=create&address=32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP&callback=http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallbacks_apirone%26apironepayment%3Dresult%26order_id%3D16: Array
+(
+    [address] => 32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP
+    [callback] => http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallbacks_apirone%26apironepayment%3Dresult%26order_id%3D16
+)
+Response: 
+<---------- 2017-10-17 14:41:00 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Array
+(
+    [currency] => USD
+    [value] => 99.00
+)
+Response: 
+<---------- 2017-10-17 14:41:01 ---------->
+Request: https://blockchainapi.org/api/receive?method=create&address=32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP&callback=http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallbacks_apirone%26apironepayment%3Dresult%26order_id%3D16: Array
+(
+    [address] => 32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP
+    [callback] => http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallbacks_apirone%26apironepayment%3Dresult%26order_id%3D16
+)
+Response: 
+<---------- 2017-10-17 14:51:06 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Array
+(
+    [currency] => USD
+    [value] => 99.00
+)
+Response: 
+<---------- 2017-10-17 14:51:07 ---------->
+Request: https://blockchainapi.org/api/receive?method=create&address=32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP&callback=http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallbacks_apirone%26apironepayment%3Dresult%26order_id%3D17: Array
+(
+    [address] => 32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP
+    [callback] => http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallbacks_apirone%26apironepayment%3Dresult%26order_id%3D17
+)
+Response: 
+<---------- 2017-10-17 14:51:09 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Array
+(
+    [currency] => USD
+    [value] => 99.00
+)
+Response: 
+<---------- 2017-10-17 14:51:12 ---------->
+Request: https://blockchainapi.org/api/receive?method=create&address=32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP&callback=http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallbacks_apirone%26apironepayment%3Dresult%26order_id%3D17: Array
+(
+    [address] => 32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP
+    [callback] => http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallbacks_apirone%26apironepayment%3Dresult%26order_id%3D17
+)
+Response: 
+<---------- 2017-10-18 12:30:53 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Array
+(
+    [currency] => USD
+    [value] => 99.00
+)
+Response: 
+<---------- 2017-10-18 12:30:55 ---------->
+Request: https://blockchainapi.org/api/receive?method=create&address=32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP&callback=http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallbacks_apirone%26apironepayment%3Dresult%26order_id%3D18: Array
+(
+    [address] => 32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP
+    [callback] => http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallbacks_apirone%26apironepayment%3Dresult%26order_id%3D18
+)
+Response: 
+<---------- 2017-10-18 12:30:57 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Array
+(
+    [currency] => USD
+    [value] => 99.00
+)
+Response: 
+<---------- 2017-10-18 12:30:59 ---------->
+Request: https://blockchainapi.org/api/receive?method=create&address=32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP&callback=http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallbacks_apirone%26apironepayment%3Dresult%26order_id%3D18: Array
+(
+    [address] => 32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP
+    [callback] => http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallbacks_apirone%26apironepayment%3Dresult%26order_id%3D18
+)
+Response: 
+<---------- 2017-10-18 12:32:28 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Array
+(
+    [currency] => USD
+    [value] => 99.00
+)
+Response: 
+<---------- 2017-10-18 12:32:29 ---------->
+Request: https://blockchainapi.org/api/receive?method=create&address=32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP&callback=http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallbacks_apirone%26apironepayment%3Dresult%26order_id%3D18: Array
+(
+    [address] => 32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP
+    [callback] => http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallbacks_apirone%26apironepayment%3Dresult%26order_id%3D18
+)
+Response: 
+<---------- 2017-10-18 12:32:31 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Array
+(
+    [currency] => USD
+    [value] => 99.00
+)
+Response: 
+<---------- 2017-10-18 12:32:34 ---------->
+Request: https://blockchainapi.org/api/receive?method=create&address=32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP&callback=http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallbacks_apirone%26apironepayment%3Dresult%26order_id%3D18: Array
+(
+    [address] => 32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP
+    [callback] => http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallbacks_apirone%26apironepayment%3Dresult%26order_id%3D18
+)
+Response: 
+<---------- 2017-10-18 13:44:31 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Array
+(
+    [currency] => USD
+    [value] => 99.00
+)
+Response: 
+<---------- 2017-10-18 13:44:35 ---------->
+Request: https://blockchainapi.org/api/receive?method=create&address=32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP&callback=http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallbacks_apirone%26apironepayment%3Dresult%26order_id%3D19: Array
+(
+    [address] => 32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP
+    [callback] => http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallbacks_apirone%26apironepayment%3Dresult%26order_id%3D19
+)
+Response: 
+<---------- 2017-10-18 13:44:37 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Array
+(
+    [currency] => USD
+    [value] => 99.00
+)
+Response: 
+<---------- 2017-10-18 13:44:40 ---------->
+Request: https://blockchainapi.org/api/receive?method=create&address=32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP&callback=http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallbacks_apirone%26apironepayment%3Dresult%26order_id%3D19: Array
+(
+    [address] => 32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP
+    [callback] => http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallbacks_apirone%26apironepayment%3Dresult%26order_id%3D19
+)
+Response: 
+<---------- 2017-10-18 13:49:47 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Array
+(
+    [currency] => USD
+    [value] => 99.00
+)
+Response: 
+<---------- 2017-10-18 13:49:48 ---------->
+Request: https://blockchainapi.org/api/receive?method=create&address=32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP&callback=http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26wc_order_59e75abee63e9order_id%3D19: Array
+(
+    [address] => 32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP
+    [callback] => http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26wc_order_59e75abee63e9order_id%3D19
+)
+Response: 
+<---------- 2017-10-18 13:49:50 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Array
+(
+    [currency] => USD
+    [value] => 99.00
+)
+Response: 
+<---------- 2017-10-18 13:49:52 ---------->
+Request: https://blockchainapi.org/api/receive?method=create&address=32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP&callback=http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26wc_order_59e75abee63e9order_id%3D19: Array
+(
+    [address] => 32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP
+    [callback] => http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26wc_order_59e75abee63e9order_id%3D19
+)
+Response: 
+<---------- 2017-10-18 13:50:49 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Array
+(
+    [currency] => USD
+    [value] => 99.00
+)
+Response: 
+<---------- 2017-10-18 13:50:49 ---------->
+Request: https://blockchainapi.org/api/receive?method=create&address=32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP&callback=http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26wc_order_59e75abee63e9order_id%3D19: Array
+(
+    [address] => 32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP
+    [callback] => http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26wc_order_59e75abee63e9order_id%3D19
+)
+Response: 
+<---------- 2017-10-18 13:50:51 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Array
+(
+    [currency] => USD
+    [value] => 99.00
+)
+Response: 
+<---------- 2017-10-18 13:50:51 ---------->
+Request: https://blockchainapi.org/api/receive?method=create&address=32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP&callback=http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26wc_order_59e75abee63e9order_id%3D19: Array
+(
+    [address] => 32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP
+    [callback] => http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26wc_order_59e75abee63e9order_id%3D19
+)
+Response: 
+<---------- 2017-10-18 13:51:50 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Array
+(
+    [currency] => USD
+    [value] => 99.00
+)
+Response: 
+<---------- 2017-10-18 13:51:51 ---------->
+Request: https://blockchainapi.org/api/receive?method=create&address=32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP&callback=http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e75abee63e9%26order_id%3D19: Array
+(
+    [address] => 32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP
+    [callback] => http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e75abee63e9%26order_id%3D19
+)
+Response: 
+<---------- 2017-10-18 13:51:52 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Array
+(
+    [currency] => USD
+    [value] => 99.00
+)
+Response: 
+<---------- 2017-10-18 13:51:55 ---------->
+Request: https://blockchainapi.org/api/receive?method=create&address=32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP&callback=http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e75abee63e9%26order_id%3D19: Array
+(
+    [address] => 32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP
+    [callback] => http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e75abee63e9%26order_id%3D19
+)
+Response: 
+<---------- 2017-10-18 14:52:22 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Array
+(
+    [currency] => USD
+    [value] => 99.00
+)
+Response: 
+<---------- 2017-10-18 14:52:28 ---------->
+Request: https://blockchainapi.org/api/receive?method=create&address=32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP&callback=http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e76aa4ae921%26order_id%3D21: Array
+(
+    [address] => 32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP
+    [callback] => http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e76aa4ae921%26order_id%3D21
+)
+Response: 
+<---------- 2017-10-18 14:52:29 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Array
+(
+    [currency] => USD
+    [value] => 99.00
+)
+Response: 
+<---------- 2017-10-18 14:52:32 ---------->
+Request: https://blockchainapi.org/api/receive?method=create&address=32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP&callback=http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e76aa4ae921%26order_id%3D21: Array
+(
+    [address] => 32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP
+    [callback] => http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e76aa4ae921%26order_id%3D21
+)
+Response: 
+<---------- 2017-10-18 14:52:46 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Array
+(
+    [currency] => USD
+    [value] => 99.00
+)
+Response: 
+<---------- 2017-10-18 14:52:47 ---------->
+Request: https://blockchainapi.org/api/receive?method=create&address=32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP&callback=http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e76aa4ae921%26order_id%3D21: Array
+(
+    [address] => 32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP
+    [callback] => http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e76aa4ae921%26order_id%3D21
+)
+Response: 
+<---------- 2017-10-18 14:52:48 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Array
+(
+    [currency] => USD
+    [value] => 99.00
+)
+Response: 
+<---------- 2017-10-18 14:52:51 ---------->
+Request: https://blockchainapi.org/api/receive?method=create&address=32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP&callback=http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e76aa4ae921%26order_id%3D21: Array
+(
+    [address] => 32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP
+    [callback] => http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e76aa4ae921%26order_id%3D21
+)
+Response: 
+<---------- 2017-10-18 15:10:48 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Array
+(
+    [currency] => USD
+    [value] => 99.00
+)
+Response: 
+<---------- 2017-10-18 15:10:49 ---------->
+Request: https://blockchainapi.org/api/receive?method=create&address=32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP&callback=http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e76aa4ae921%26order_id%3D21: Array
+(
+    [address] => 32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP
+    [callback] => http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e76aa4ae921%26order_id%3D21
+)
+Response: 
+<---------- 2017-10-18 15:10:51 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Array
+(
+    [currency] => USD
+    [value] => 99.00
+)
+Response: 
+<---------- 2017-10-18 15:10:53 ---------->
+Request: https://blockchainapi.org/api/receive?method=create&address=32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP&callback=http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e76aa4ae921%26order_id%3D21: Array
+(
+    [address] => 32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP
+    [callback] => http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e76aa4ae921%26order_id%3D21
+)
+Response: 
+<---------- 2017-10-18 15:11:49 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Array
+(
+    [currency] => USD
+    [value] => 99.00
+)
+Response: 
+<---------- 2017-10-18 15:11:50 ---------->
+Request: https://blockchainapi.org/api/receive?method=create&address=32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP&callback=http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e76aa4ae921%26order_id%3D21: Array
+(
+    [address] => 32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP
+    [callback] => http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e76aa4ae921%26order_id%3D21
+)
+Response: 
+<---------- 2017-10-18 15:11:51 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Array
+(
+    [currency] => USD
+    [value] => 99.00
+)
+Response: 
+<---------- 2017-10-18 15:11:54 ---------->
+Request: https://blockchainapi.org/api/receive?method=create&address=32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP&callback=http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e76aa4ae921%26order_id%3D21: Array
+(
+    [address] => 32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP
+    [callback] => http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e76aa4ae921%26order_id%3D21
+)
+Response: 
+<---------- 2017-10-18 15:25:39 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01907154
+<---------- 2017-10-18 15:25:43 ---------->
+Request: https://blockchainapi.org/api/receive?method=create&address=32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP&callback=http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e76aa4ae921%26order_id%3D21: Array
+(
+    [address] => 32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP
+    [callback] => http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e76aa4ae921%26order_id%3D21
+)
+Response: 
+<---------- 2017-10-18 15:25:44 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01904487
+<---------- 2017-10-18 15:25:47 ---------->
+Request: https://blockchainapi.org/api/receive?method=create&address=32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP&callback=http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e76aa4ae921%26order_id%3D21: Array
+(
+    [address] => 32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP
+    [callback] => http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e76aa4ae921%26order_id%3D21
+)
+Response: 
+<---------- 2017-10-18 15:29:48 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01906247
+<---------- 2017-10-18 15:29:49 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01905528
+<---------- 2017-10-18 15:29:50 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01904487
+<---------- 2017-10-18 15:29:51 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01906255
+<---------- 2017-10-18 15:30:44 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01905528
+<---------- 2017-10-18 15:30:45 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01905528
+<---------- 2017-10-18 15:31:12 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01905528
+<---------- 2017-10-18 15:31:13 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01905095
+<---------- 2017-10-18 15:31:15 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01905095
+<---------- 2017-10-18 15:31:16 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01905095
+<---------- 2017-10-18 15:31:16 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01905095
+<---------- 2017-10-18 15:31:17 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01905528
+<---------- 2017-10-18 15:31:38 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01905095
+<---------- 2017-10-18 15:31:39 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01905528
+<---------- 2017-10-18 15:31:40 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01905095
+<---------- 2017-10-18 15:31:40 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01903952
+<---------- 2017-10-18 15:31:41 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01903952
+<---------- 2017-10-18 15:31:41 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01905095
+<---------- 2017-10-18 15:46:44 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01903952
+<---------- 2017-10-18 15:46:45 ---------->
+Request: https://blockchainapi.org/api/receive?method=create&address=32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP&callback=http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e76aa4ae921%26order_id%3D21: Array
+(
+    [address] => 32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP
+    [callback] => http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e76aa4ae921%26order_id%3D21
+)
+Response: 
+<---------- 2017-10-18 15:46:47 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01905095
+<---------- 2017-10-18 15:46:49 ---------->
+Request: https://blockchainapi.org/api/receive?method=create&address=32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP&callback=http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e76aa4ae921%26order_id%3D21: Array
+(
+    [address] => 32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP
+    [callback] => http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e76aa4ae921%26order_id%3D21
+)
+Response: 
+<---------- 2017-10-18 15:48:58 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01905095
+<---------- 2017-10-18 15:48:59 ---------->
+Request: https://blockchainapi.org/api/receive?method=create&address=32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP&callback=http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e76aa4ae921%26order_id%3D21: Array
+(
+    [address] => 32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP
+    [callback] => http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e76aa4ae921%26order_id%3D21
+)
+Response: 
+<---------- 2017-10-18 15:49:01 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01889255
+<---------- 2017-10-18 15:49:04 ---------->
+Request: https://blockchainapi.org/api/receive?method=create&address=32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP&callback=http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e76aa4ae921%26order_id%3D21: Array
+(
+    [address] => 32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP
+    [callback] => http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e76aa4ae921%26order_id%3D21
+)
+Response: 
+<---------- 2017-10-18 15:49:26 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01887994
+<---------- 2017-10-18 15:49:27 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01889255
+<---------- 2017-10-18 15:50:53 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01887991
+<---------- 2017-10-18 15:50:54 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01885133
+<---------- 2017-10-18 15:51:31 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01887994
+<---------- 2017-10-18 15:51:32 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01874091
+<---------- 2017-10-18 16:00:20 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01874091
+<---------- 2017-10-18 16:00:21 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01880142
+<---------- 2017-10-18 16:00:44 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01853967
+<---------- 2017-10-18 16:00:45 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01853967
+<---------- 2017-10-19 11:53:00 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.0173733
+<---------- 2017-10-19 11:53:02 ---------->
+Request: https://blockchainapi.org/api/receive?method=create&address=32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP&callback=http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8921bcade7%26order_id%3D22: Array
+(
+    [address] => 32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP
+    [callback] => http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8921bcade7%26order_id%3D22
+)
+Response: 
+<---------- 2017-10-19 11:53:04 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.0173733
+<---------- 2017-10-19 11:53:06 ---------->
+Request: https://blockchainapi.org/api/receive?method=create&address=32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP&callback=http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8921bcade7%26order_id%3D22: Array
+(
+    [address] => 32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP
+    [callback] => http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8921bcade7%26order_id%3D22
+)
+Response: 
+<---------- 2017-10-19 12:00:12 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.0173733
+<---------- 2017-10-19 12:00:22 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.0173588
+<---------- 2017-10-19 12:03:01 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01741223
+<---------- 2017-10-19 12:03:02 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01741333
+<---------- 2017-10-19 12:05:07 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01741786
+<---------- 2017-10-19 12:05:08 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01741333
+<---------- 2017-10-19 12:05:10 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01741063
+<---------- 2017-10-19 12:05:11 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01741063
+<---------- 2017-10-19 12:08:20 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01741063
+<---------- 2017-10-19 12:08:21 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01742798
+<---------- 2017-10-19 12:09:10 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01747937
+<---------- 2017-10-19 12:09:11 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01742798
+<---------- 2017-10-19 12:13:35 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01741063
+<---------- 2017-10-19 12:13:36 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01753128
+<---------- 2017-10-19 12:24:22 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01742798
+<---------- 2017-10-19 12:24:23 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01748826
+<---------- 2017-10-19 12:24:24 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01747937
+<---------- 2017-10-19 12:24:24 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01753128
+<---------- 2017-10-19 12:24:25 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01749586
+<---------- 2017-10-19 12:24:26 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01749586
+<---------- 2017-10-19 12:25:22 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01748826
+<---------- 2017-10-19 12:25:23 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01749586
+<---------- 2017-10-19 12:26:09 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01748826
+<---------- 2017-10-19 12:26:10 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01748826
+<---------- 2017-10-19 12:26:11 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.0174798
+<---------- 2017-10-19 12:26:12 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.0174798
+<---------- 2017-10-19 12:26:14 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.0174798
+<---------- 2017-10-19 12:26:15 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.0174798
+<---------- 2017-10-19 12:26:23 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01749586
+<---------- 2017-10-19 12:26:24 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.0174798
+<---------- 2017-10-19 12:28:13 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.0174798
+<---------- 2017-10-19 12:28:14 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.0174798
+<---------- 2017-10-19 12:32:21 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01746799
+<---------- 2017-10-19 12:32:21 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01746796
+<---------- 2017-10-19 12:32:40 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01747089
+<---------- 2017-10-19 12:32:40 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01747089
+<---------- 2017-10-19 12:34:29 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01747089
+<---------- 2017-10-19 12:34:29 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01744742
+<---------- 2017-10-19 12:35:07 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01747089
+<---------- 2017-10-19 12:35:08 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01744742
+<---------- 2017-10-19 12:42:31 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01744745
+<---------- 2017-10-19 12:42:32 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.0174798
+<---------- 2017-10-19 13:02:32 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01744211
+<---------- 2017-10-19 13:02:34 ---------->
+Request: https://blockchainapi.org/api/receive?method=create&address=32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP&callback=http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23: Array
+(
+    [address] => 32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP
+    [callback] => http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23
+)
+Response: 
+<---------- 2017-10-19 13:02:36 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01744214
+<---------- 2017-10-19 13:02:38 ---------->
+Request: https://blockchainapi.org/api/receive?method=create&address=32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP&callback=http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23: Array
+(
+    [address] => 32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP
+    [callback] => http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23
+)
+Response: 
+<---------- 2017-10-19 13:07:22 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01754097
+<---------- 2017-10-19 13:07:23 ---------->
+Request: https://blockchainapi.org/api/receive?method=create&address=32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP&callback=http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23: Array
+(
+    [address] => 32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP
+    [callback] => http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23
+)
+Response: 
+<---------- 2017-10-19 13:07:24 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01753531
+<---------- 2017-10-19 13:07:25 ---------->
+Request: https://blockchainapi.org/api/receive?method=create&address=32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP&callback=http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23: Array
+(
+    [address] => 32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP
+    [callback] => http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23
+)
+Response: 
+<---------- 2017-10-19 13:07:28 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01753531
+<---------- 2017-10-19 13:07:30 ---------->
+Request: https://blockchainapi.org/api/receive?method=create&address=32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP&callback=http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23: Array
+(
+    [address] => 32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP
+    [callback] => http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23
+)
+Response: 
+<---------- 2017-10-19 13:08:04 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01744742
+<---------- 2017-10-19 13:08:05 ---------->
+Request: https://blockchainapi.org/api/receive?method=create&address=32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP&callback=http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23: Array
+(
+    [address] => 32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP
+    [callback] => http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23
+)
+Response: 
+<---------- 2017-10-19 13:08:07 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01754097
+<---------- 2017-10-19 13:08:09 ---------->
+Request: https://blockchainapi.org/api/receive?method=create&address=32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP&callback=http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23: Array
+(
+    [address] => 32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP
+    [callback] => http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23
+)
+Response: 
+<---------- 2017-10-19 13:09:15 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01754237
+<---------- 2017-10-19 13:09:16 ---------->
+Request: https://blockchainapi.org/api/receive?method=create&address=32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP&callback=http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23: Array
+(
+    [address] => 32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP
+    [callback] => http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23
+)
+Response: 
+<---------- 2017-10-19 13:09:17 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01754237
+<---------- 2017-10-19 13:09:21 ---------->
+Request: https://blockchainapi.org/api/receive?method=create&address=32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP&callback=http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23: Array
+(
+    [address] => 32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP
+    [callback] => http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23
+)
+Response: 
+<---------- 2017-10-19 13:09:53 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01753531
+<---------- 2017-10-19 13:09:54 ---------->
+Request: https://blockchainapi.org/api/receive?method=create&address=32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP&callback=http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23: Array
+(
+    [address] => 32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP
+    [callback] => http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23
+)
+Response: 
+<---------- 2017-10-19 13:09:56 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01752758
+<---------- 2017-10-19 13:09:58 ---------->
+Request: https://blockchainapi.org/api/receive?method=create&address=32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP&callback=http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23: Array
+(
+    [address] => 32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP
+    [callback] => http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23
+)
+Response: 
+<---------- 2017-10-19 13:10:37 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01752597
+<---------- 2017-10-19 13:10:38 ---------->
+Request: https://blockchainapi.org/api/receive?method=create&address=32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP&callback=http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23: Array
+(
+    [address] => 32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP
+    [callback] => http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23
+)
+Response: 
+<---------- 2017-10-19 13:10:40 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01752597
+<---------- 2017-10-19 13:10:42 ---------->
+Request: https://blockchainapi.org/api/receive?method=create&address=32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP&callback=http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23: Array
+(
+    [address] => 32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP
+    [callback] => http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23
+)
+Response: 
+<---------- 2017-10-19 13:11:07 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01752758
+<---------- 2017-10-19 13:11:08 ---------->
+Request: https://blockchainapi.org/api/receive?method=create&address=32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP&callback=http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23: Array
+(
+    [address] => 32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP
+    [callback] => http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23
+)
+Response: 
+<---------- 2017-10-19 13:11:08 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01751564
+<---------- 2017-10-19 13:11:09 ---------->
+Request: https://blockchainapi.org/api/receive?method=create&address=32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP&callback=http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23: Array
+(
+    [address] => 32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP
+    [callback] => http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23
+)
+Response: 
+<---------- 2017-10-19 13:11:11 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01751564
+<---------- 2017-10-19 13:11:13 ---------->
+Request: https://blockchainapi.org/api/receive?method=create&address=32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP&callback=http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23: Array
+(
+    [address] => 32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP
+    [callback] => http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23
+)
+Response: 
+<---------- 2017-10-19 13:13:16 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01751564
+<---------- 2017-10-19 13:13:17 ---------->
+Request: https://blockchainapi.org/api/receive?method=create&address=32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP&callback=http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23: Array
+(
+    [address] => 32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP
+    [callback] => http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23
+)
+Response: 
+<---------- 2017-10-19 13:13:20 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01752758
+<---------- 2017-10-19 13:13:22 ---------->
+Request: https://blockchainapi.org/api/receive?method=create&address=32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP&callback=http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23: Array
+(
+    [address] => 32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP
+    [callback] => http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23
+)
+Response: 
+<---------- 2017-10-19 13:14:21 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01752597
+<---------- 2017-10-19 13:14:22 ---------->
+Request: https://blockchainapi.org/api/receive?method=create&address=32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP&callback=http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23: Array
+(
+    [address] => 32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP
+    [callback] => http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23
+)
+Response: 
+<---------- 2017-10-19 13:14:23 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01748002
+<---------- 2017-10-19 13:14:26 ---------->
+Request: https://blockchainapi.org/api/receive?method=create&address=32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP&callback=http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23: Array
+(
+    [address] => 32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP
+    [callback] => http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23
+)
+Response: 
+<---------- 2017-10-19 13:16:40 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01748002
+<---------- 2017-10-19 13:16:41 ---------->
+Request: https://blockchainapi.org/api/receive?method=create&address=32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP&callback=http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23: Array
+(
+    [address] => 32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP
+    [callback] => http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23
+)
+Response: 
+<---------- 2017-10-19 13:16:43 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01749352
+<---------- 2017-10-19 13:16:45 ---------->
+Request: https://blockchainapi.org/api/receive?method=create&address=32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP&callback=http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23: Array
+(
+    [address] => 32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP
+    [callback] => http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23
+)
+Response: 
+<---------- 2017-10-19 13:16:54 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.0174533
+<---------- 2017-10-19 13:16:55 ---------->
+Request: https://blockchainapi.org/api/receive?method=create&address=32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP&callback=http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23: Array
+(
+    [address] => 32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP
+    [callback] => http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23
+)
+Response: 
+<---------- 2017-10-19 13:16:57 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01749352
+<---------- 2017-10-19 13:16:59 ---------->
+Request: https://blockchainapi.org/api/receive?method=create&address=32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP&callback=http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23: Array
+(
+    [address] => 32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP
+    [callback] => http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23
+)
+Response: 
+<---------- 2017-10-19 13:19:02 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.0174533
+<---------- 2017-10-19 13:19:03 ---------->
+Request: https://blockchainapi.org/api/receive?method=create&address=32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP&callback=http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23: Array
+(
+    [address] => 32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP
+    [callback] => http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23
+)
+Response: 
+<---------- 2017-10-19 13:19:05 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01744287
+<---------- 2017-10-19 13:19:07 ---------->
+Request: https://blockchainapi.org/api/receive?method=create&address=32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP&callback=http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23: Array
+(
+    [address] => 32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP
+    [callback] => http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23
+)
+Response: 
+<---------- 2017-10-19 13:19:27 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01745333
+<---------- 2017-10-19 13:19:28 ---------->
+Request: https://blockchainapi.org/api/receive?method=create&address=32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP&callback=http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23: Array
+(
+    [address] => 32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP
+    [callback] => http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23
+)
+Response: 
+<---------- 2017-10-19 13:19:30 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.0174394
+<---------- 2017-10-19 13:19:32 ---------->
+Request: https://blockchainapi.org/api/receive?method=create&address=32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP&callback=http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23: Array
+(
+    [address] => 32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP
+    [callback] => http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23
+)
+Response: 
+<---------- 2017-10-19 13:20:31 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01744287
+<---------- 2017-10-19 13:20:32 ---------->
+Request: https://blockchainapi.org/api/receive?method=create&address=32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP&callback=http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23: Array
+(
+    [address] => 32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP
+    [callback] => http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23
+)
+Response: 
+<---------- 2017-10-19 13:20:34 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.0174533
+<---------- 2017-10-19 13:20:36 ---------->
+Request: https://blockchainapi.org/api/receive?method=create&address=32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP&callback=http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23: Array
+(
+    [address] => 32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP
+    [callback] => http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23
+)
+Response: 
+<---------- 2017-10-19 13:32:55 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01743492
+<---------- 2017-10-19 13:32:56 ---------->
+Request: https://blockchainapi.org/api/receive?method=create&address=32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP&callback=http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23: Array
+(
+    [address] => 32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP
+    [callback] => http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23
+)
+Response: 
+<---------- 2017-10-19 13:32:57 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01738746
+<---------- 2017-10-19 13:33:00 ---------->
+Request: https://blockchainapi.org/api/receive?method=create&address=32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP&callback=http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23: Array
+(
+    [address] => 32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP
+    [callback] => http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23
+)
+Response: 
+<---------- 2017-10-19 13:34:10 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01743492
+<---------- 2017-10-19 13:34:11 ---------->
+Request: https://blockchainapi.org/api/receive?method=create&address=32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP&callback=http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23: Array
+(
+    [address] => 32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP
+    [callback] => http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23
+)
+Response: 
+<---------- 2017-10-19 13:34:13 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.0174394
+<---------- 2017-10-19 13:34:16 ---------->
+Request: https://blockchainapi.org/api/receive?method=create&address=32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP&callback=http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23: Array
+(
+    [address] => 32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP
+    [callback] => http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23
+)
+Response: 
+<---------- 2017-10-19 13:35:40 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01738746
+<---------- 2017-10-19 13:35:41 ---------->
+Request: https://blockchainapi.org/api/receive?method=create&address=32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP&callback=http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23: Array
+(
+    [address] => 32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP
+    [callback] => http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23
+)
+Response: 
+<---------- 2017-10-19 13:35:43 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01738333
+<---------- 2017-10-19 13:35:45 ---------->
+Request: https://blockchainapi.org/api/receive?method=create&address=32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP&callback=http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23: Array
+(
+    [address] => 32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP
+    [callback] => http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23
+)
+Response: 
+<---------- 2017-10-19 13:36:22 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01738333
+<---------- 2017-10-19 13:36:23 ---------->
+Request: https://blockchainapi.org/api/receive?method=create&address=32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP&callback=http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23: Array
+(
+    [address] => 32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP
+    [callback] => http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23
+)
+Response: 
+<---------- 2017-10-19 13:36:25 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01739962
+<---------- 2017-10-19 13:36:27 ---------->
+Request: https://blockchainapi.org/api/receive?method=create&address=32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP&callback=http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23: Array
+(
+    [address] => 32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP
+    [callback] => http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23
+)
+Response: 
+<---------- 2017-10-19 13:36:52 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01739962
+<---------- 2017-10-19 13:36:53 ---------->
+Request: https://blockchainapi.org/api/receive?method=create&address=32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP&callback=http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23: Array
+(
+    [address] => 32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP
+    [callback] => http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23
+)
+Response: 
+<---------- 2017-10-19 13:36:54 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01739962
+<---------- 2017-10-19 13:36:57 ---------->
+Request: https://blockchainapi.org/api/receive?method=create&address=32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP&callback=http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23: Array
+(
+    [address] => 32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP
+    [callback] => http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23
+)
+Response: 
+<---------- 2017-10-19 13:37:53 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01739962
+<---------- 2017-10-19 13:37:54 ---------->
+Request: https://blockchainapi.org/api/receive?method=create&address=32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP&callback=http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23: Array
+(
+    [address] => 32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP
+    [callback] => http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23
+)
+Response: 
+<---------- 2017-10-19 13:37:56 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01739962
+<---------- 2017-10-19 13:37:59 ---------->
+Request: https://blockchainapi.org/api/receive?method=create&address=32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP&callback=http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23: Array
+(
+    [address] => 32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP
+    [callback] => http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23
+)
+Response: 
+<---------- 2017-10-19 13:38:34 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01735737
+<---------- 2017-10-19 13:38:35 ---------->
+Request: https://blockchainapi.org/api/receive?method=create&address=32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP&callback=http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23: Array
+(
+    [address] => 32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP
+    [callback] => http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23
+)
+Response: 
+<---------- 2017-10-19 13:38:37 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01735737
+<---------- 2017-10-19 13:38:40 ---------->
+Request: https://blockchainapi.org/api/receive?method=create&address=32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP&callback=http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23: Array
+(
+    [address] => 32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP
+    [callback] => http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23
+)
+Response: 
+<---------- 2017-10-19 13:39:33 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01735737
+<---------- 2017-10-19 13:39:34 ---------->
+Request: https://blockchainapi.org/api/receive?method=create&address=32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP&callback=http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23: Array
+(
+    [address] => 32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP
+    [callback] => http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23
+)
+Response: 
+<---------- 2017-10-19 13:39:38 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.0173229
+<---------- 2017-10-19 13:39:39 ---------->
+Request: https://blockchainapi.org/api/receive?method=create&address=32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP&callback=http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23: Array
+(
+    [address] => 32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP
+    [callback] => http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23
+)
+Response: 
+<---------- 2017-10-19 13:40:04 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01739341
+<---------- 2017-10-19 13:40:05 ---------->
+Request: https://blockchainapi.org/api/receive?method=create&address=32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP&callback=http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23: Array
+(
+    [address] => 32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP
+    [callback] => http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23
+)
+Response: 
+<---------- 2017-10-19 13:40:07 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.0173229
+<---------- 2017-10-19 13:40:09 ---------->
+Request: https://blockchainapi.org/api/receive?method=create&address=32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP&callback=http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23: Array
+(
+    [address] => 32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP
+    [callback] => http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23
+)
+Response: 
+<---------- 2017-10-19 13:46:40 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01735737
+<---------- 2017-10-19 13:46:40 ---------->
+Request: https://blockchainapi.org/api/receive?method=create&address=32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP&callback=http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23: Array
+(
+    [address] => 32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP
+    [callback] => http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23
+)
+Response: 
+<---------- 2017-10-19 13:46:43 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.0173229
+<---------- 2017-10-19 13:46:44 ---------->
+Request: https://blockchainapi.org/api/receive?method=create&address=32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP&callback=http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23: Array
+(
+    [address] => 32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP
+    [callback] => http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23
+)
+Response: 
+<---------- 2017-10-19 13:47:13 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01733551
+<---------- 2017-10-19 13:47:14 ---------->
+Request: https://blockchainapi.org/api/receive?method=create&address=32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP&callback=http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23: Array
+(
+    [address] => 32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP
+    [callback] => http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23
+)
+Response: 
+<---------- 2017-10-19 13:47:16 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.0173229
+<---------- 2017-10-19 13:47:18 ---------->
+Request: https://blockchainapi.org/api/receive?method=create&address=32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP&callback=http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23: Array
+(
+    [address] => 32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP
+    [callback] => http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23
+)
+Response: 
+<---------- 2017-10-19 13:47:50 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01733551
+<---------- 2017-10-19 13:47:51 ---------->
+Request: https://blockchainapi.org/api/receive?method=create&address=32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP&callback=http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23: Array
+(
+    [address] => 32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP
+    [callback] => http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23
+)
+Response: 
+<---------- 2017-10-19 13:47:52 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01733551
+<---------- 2017-10-19 13:47:55 ---------->
+Request: https://blockchainapi.org/api/receive?method=create&address=32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP&callback=http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23: Array
+(
+    [address] => 32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP
+    [callback] => http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23
+)
+Response: 
+<---------- 2017-10-19 13:48:21 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01733269
+<---------- 2017-10-19 13:48:22 ---------->
+Request: https://blockchainapi.org/api/receive?method=create&address=32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP&callback=http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23: Array
+(
+    [address] => 32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP
+    [callback] => http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23
+)
+Response: 
+<---------- 2017-10-19 13:48:24 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01733551
+<---------- 2017-10-19 13:48:27 ---------->
+Request: https://blockchainapi.org/api/receive?method=create&address=32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP&callback=http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23: Array
+(
+    [address] => 32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP
+    [callback] => http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23
+)
+Response: 
+<---------- 2017-10-19 13:49:16 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01733269
+<---------- 2017-10-19 13:49:16 ---------->
+Request: https://blockchainapi.org/api/receive?method=create&address=32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP&callback=http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23: Array
+(
+    [address] => 32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP
+    [callback] => http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23
+)
+Response: 
+<---------- 2017-10-19 13:49:19 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01732484
+<---------- 2017-10-19 13:49:21 ---------->
+Request: https://blockchainapi.org/api/receive?method=create&address=32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP&callback=http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23: Array
+(
+    [address] => 32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP
+    [callback] => http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23
+)
+Response: 
+<---------- 2017-10-19 13:53:09 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01733269
+<---------- 2017-10-19 13:53:10 ---------->
+Request: https://blockchainapi.org/api/receive?method=create&address=32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP&callback=http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23: Array
+(
+    [address] => 32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP
+    [callback] => http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23
+)
+Response: 
+<---------- 2017-10-19 13:53:13 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01732484
+<---------- 2017-10-19 13:53:14 ---------->
+Request: https://blockchainapi.org/api/receive?method=create&address=32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP&callback=http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23: Array
+(
+    [address] => 32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP
+    [callback] => http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23
+)
+Response: 
+<---------- 2017-10-19 13:55:00 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01730095
+<---------- 2017-10-19 13:55:01 ---------->
+Request: https://blockchainapi.org/api/receive?method=create&address=32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP&callback=http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23: Array
+(
+    [address] => 32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP
+    [callback] => http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23
+)
+Response: 
+<---------- 2017-10-19 13:55:03 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01733551
+<---------- 2017-10-19 13:55:04 ---------->
+Request: https://blockchainapi.org/api/receive?method=create&address=32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP&callback=http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23: Array
+(
+    [address] => 32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP
+    [callback] => http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23
+)
+Response: 
+<---------- 2017-10-19 13:57:54 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01727592
+<---------- 2017-10-19 13:57:55 ---------->
+Request: https://blockchainapi.org/api/receive?method=create&address=32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP&callback=http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23: Array
+(
+    [address] => 32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP
+    [callback] => http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23
+)
+Response: 
+<---------- 2017-10-19 13:57:57 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01730095
+<---------- 2017-10-19 13:57:59 ---------->
+Request: https://blockchainapi.org/api/receive?method=create&address=32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP&callback=http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23: Array
+(
+    [address] => 32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP
+    [callback] => http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23
+)
+Response: 
+<---------- 2017-10-19 13:58:52 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01725827
+<---------- 2017-10-19 13:58:53 ---------->
+Request: https://blockchainapi.org/api/receive?method=create&address=32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP&callback=http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23: Array
+(
+    [address] => 32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP
+    [callback] => http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23
+)
+Response: 
+<---------- 2017-10-19 13:58:55 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01727592
+<---------- 2017-10-19 13:58:56 ---------->
+Request: https://blockchainapi.org/api/receive?method=create&address=32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP&callback=http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23: Array
+(
+    [address] => 32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP
+    [callback] => http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23
+)
+Response: 
+<---------- 2017-10-19 14:09:09 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01725827
+<---------- 2017-10-19 14:09:15 ---------->
+Request: https://blockchainapi.org/api/receive?method=create&address=32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP&callback=http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23: Array
+(
+    [address] => 32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP
+    [callback] => http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23
+)
+Response: 
+<---------- 2017-10-19 14:09:18 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01725827
+<---------- 2017-10-19 14:09:19 ---------->
+Request: https://blockchainapi.org/api/receive?method=create&address=32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP&callback=http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23: Array
+(
+    [address] => 32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP
+    [callback] => http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23
+)
+Response: 
+<---------- 2017-10-19 14:22:34 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01729862
+<---------- 2017-10-19 14:22:35 ---------->
+Request: https://blockchainapi.org/api/receive?method=create&address=32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP&callback=http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23: Array
+(
+    [address] => 32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP
+    [callback] => http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23
+)
+Response: 
+<---------- 2017-10-19 14:22:37 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01727933
+<---------- 2017-10-19 14:22:40 ---------->
+Request: https://blockchainapi.org/api/receive?method=create&address=32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP&callback=http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23: Array
+(
+    [address] => 32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP
+    [callback] => http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23
+)
+Response: 
+<---------- 2017-10-19 14:30:02 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01729859
+<---------- 2017-10-19 14:30:03 ---------->
+Request: https://blockchainapi.org/api/receive?method=create&address=32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP&callback=http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23: Array
+(
+    [address] => 32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP
+    [callback] => http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23
+)
+Response: 
+<---------- 2017-10-19 14:30:04 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01725725
+<---------- 2017-10-19 14:30:07 ---------->
+Request: https://blockchainapi.org/api/receive?method=create&address=32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP&callback=http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23: Array
+(
+    [address] => 32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP
+    [callback] => http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23
+)
+Response: 
+<---------- 2017-10-19 14:40:26 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01730325
+<---------- 2017-10-19 14:40:29 ---------->
+Request: https://blockchainapi.org/api/receive?method=create&address=32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP&callback=http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23: Array
+(
+    [address] => 32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP
+    [callback] => http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23
+)
+Response: 
+<---------- 2017-10-19 14:40:31 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01729738
+<---------- 2017-10-19 14:40:33 ---------->
+Request: https://blockchainapi.org/api/receive?method=create&address=32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP&callback=http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23: Array
+(
+    [address] => 32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP
+    [callback] => http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8a267c565f%26order_id%3D23
+)
+Response: 
+<---------- 2017-10-19 14:51:27 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01729738
+<---------- 2017-10-19 14:51:28 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01732481
+<---------- 2017-10-19 14:55:24 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01732481
+<---------- 2017-10-19 14:55:24 ---------->
+Request: https://blockchainapi.org/api/receive?method=create&address=32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP&callback=http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8bcdb60f09%26order_id%3D24: Array
+(
+    [address] => 32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP
+    [callback] => http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8bcdb60f09%26order_id%3D24
+)
+Response: 
+<---------- 2017-10-19 14:55:27 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01736608
+<---------- 2017-10-19 14:55:29 ---------->
+Request: https://blockchainapi.org/api/receive?method=create&address=32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP&callback=http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8bcdb60f09%26order_id%3D24: Array
+(
+    [address] => 32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP
+    [callback] => http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8bcdb60f09%26order_id%3D24
+)
+Response: 
+<---------- 2017-10-19 15:06:58 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01727933
+<---------- 2017-10-19 15:06:59 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01730325
+<---------- 2017-10-19 17:12:09 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01748604
+<---------- 2017-10-19 17:12:15 ---------->
+Request: https://blockchainapi.org/api/receive?method=create&address=32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP&callback=http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8dce84e3e9%26order_id%3D25: Array
+(
+    [address] => 32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP
+    [callback] => http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8dce84e3e9%26order_id%3D25
+)
+Response: 
+<---------- 2017-10-19 17:12:16 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01748604
+<---------- 2017-10-19 17:12:19 ---------->
+Request: https://blockchainapi.org/api/receive?method=create&address=32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP&callback=http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8dce84e3e9%26order_id%3D25: Array
+(
+    [address] => 32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP
+    [callback] => http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e8dce84e3e9%26order_id%3D25
+)
+Response: 
+<---------- 2017-10-19 17:13:45 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01748604
+<---------- 2017-10-19 18:05:41 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01748761
+<---------- 2017-10-19 18:05:42 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01748604
+<---------- 2017-10-20 02:54:08 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01748252
+<---------- 2017-10-20 06:27:20 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01751413
+<---------- 2017-10-20 06:27:22 ---------->
+Request: https://blockchainapi.org/api/receive?method=create&address=32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP&callback=http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e99746ec9fe%26order_id%3D26: Array
+(
+    [address] => 32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP
+    [callback] => http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e99746ec9fe%26order_id%3D26
+)
+Response: 
+<---------- 2017-10-20 06:27:24 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01751413
+<---------- 2017-10-20 06:27:26 ---------->
+Request: https://blockchainapi.org/api/receive?method=create&address=32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP&callback=http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e99746ec9fe%26order_id%3D26: Array
+(
+    [address] => 32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP
+    [callback] => http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_59e99746ec9fe%26order_id%3D26
+)
+Response: 
+<---------- 2017-10-20 06:28:37 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01754103
+<---------- 2017-11-09 06:54:51 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01345868
+<---------- 2017-11-09 06:54:58 ---------->
+Request: https://blockchainapi.org/api/receive?method=create&address=32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP&callback=http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_5a03fbb7c6198%26order_id%3D28: Array
+(
+    [address] => 32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP
+    [callback] => http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_5a03fbb7c6198%26order_id%3D28
+)
+Response: 
+<---------- 2017-11-09 06:55:00 ---------->
+Request: https://blockchain.info/tobtc?currency=USD&value=99.00: Response: 0.01345868
+<---------- 2017-11-09 06:55:03 ---------->
+Request: https://blockchainapi.org/api/receive?method=create&address=32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP&callback=http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_5a03fbb7c6198%26order_id%3D28: Array
+(
+    [address] => 32RSEM62XAmD9AwbkGXRe5M11JwmqZ1fXP
+    [callback] => http%3A%2F%2Fdemo.dvit.pro%3Fwc-api%3Dcallback_apirone%26key%3Dwc_order_5a03fbb7c6198%26order_id%3D28
+)
+Response: 
