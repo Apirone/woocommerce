@@ -1,12 +1,12 @@
 ﻿<?php
 /*
-Plugin Name: WooCommerce Apirone gateway
-Plugin URI: http://apirone.com
+Plugin Name: Bitcoin forwarding - Apirone.com Gateway
+Plugin URI: https://github.com/Apirone/woocommerce/archive/master.zip
 Description: Bitcoin Forwarding Gateway for Woocoomerce.
 Version: 1.0
 Author: Apirone LLC
 Author URI: http://www.apirone.com
-Copyright: © 2017 Apirone.
+Copyright: © 2018 Apirone.
 License: GNU General Public License v3.0
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 */
