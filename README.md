@@ -94,7 +94,7 @@ We do not take the fee from amounts less than 100,000 Satoshi.
 
 = 1.0 =
 
-- Initial Revision. Using Bitcoin mainnet with SegWit support.
+- Initial Revision. Use Bitcoin mainnet with SegWit support.
 RestAPI v1.0 https://apirone.com/docs/bitcoin-forwarding-api
 
 
