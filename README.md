@@ -13,8 +13,8 @@ Key features:
 
 * Payments forward directly into your bitcoin wallet (we do not hold your money)
 * No KYC/documentation necessary
-* Fixed Fee 0.0002 BTC (flat rate for any amount forever, no fee for amounts less than 100.000 Satoshi)
-* White label processing (your online shop accept payments directly without redirects, iframes, payment advertisement, etc.)
+* Fixed Fee 0.0002 BTC (flat rate for any amount forever, no fee for amounts less than 100,000 Satoshi)
+* White label processing (your online shop accept payments directly without redirects, iframes, payment advertisements, etc.)
 * Around the world
 * TOR network support
 * Unlimited count of your requests (generate thousands of bitcoin addresses for thousands of your customers)
