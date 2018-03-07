@@ -1,7 +1,9 @@
 # Woocommerce plugin - Bitcoin forwarding
 
 Requires PHP at least: 5.2
+
 Tested up to: 7.1.14
+
 
 ## Description
 
@@ -30,6 +32,8 @@ Key features:
 
 Everyone can accept bitcoin payments!
 
+
+
 ## Installation
 
 This Plugin requires Woocommerce. Please make sure you have Woocommerce installed.
@@ -47,7 +51,7 @@ Turn "On" checkbox in Plugin on same setting page.
 
 ### Installation via WooCommerce FTP Uploader
 
-1. Download https://github.com/BoyarovMaksim/woocommerce/archive/master.zip
+1. Download https://github.com/Apirone/woocommerce/archive/master.zip
 2. Go to WordPress Admin panel » Plugins » Add New in admin panel.
 3. Upload zip archive in Upload Plugin page
 4. Open menu: Plugins » find WooCommerce Apirone gateway > cleck edit > choose file "woocommerce-apirone/config.php"
@@ -57,7 +61,7 @@ Turn "On" checkbox in Plugin on same setting page.
 
 ### Installation via FTP
 
-1. Download https://github.com/BoyarovMaksim/woocommerce/archive/master.zip
+1. Download https://github.com/Apirone/woocommerce/archive/master.zip
 2. Unzip and upload directory with all files to /wp-content/plugins/ through FTP client.
 3. Open menu: Plugins » find WooCommerce Apirone gateway > cleck edit > choose file "woocommerce-apirone/config.php"
 change example.com ("define('SHOP_URL', 'http://example.com');") to your site link. HTTP and HTTPS is important. Click update file.
@@ -76,21 +80,27 @@ You can enter bitcoin address of your account of any trade platform and convert 
 
 This process is fully manual, because you will get all payments to your wallet. And only you cantrol your money.
 Contact with customer, ask address and finish deal.
+
 Bitcoin protocol have not refunds, chargebacks or transaction cancellations.
 
 ### Fee
 
 A fixed rate fee 0.0002 BTC per transaction, regardless of the amount and the number of transactions. Accept bitcoins for million dollars and pay fixed fee.
+
 We do not take the fee from amounts less than 100000 Satoshi.
 
 
 ## Changelog
 
 = 1.0 =
+
 - Initial Revision. Using Bitcoin mainnet with SegWit support.
 RestAPI v1.0 https://apirone.com/docs/bitcoin-forwarding-api
+
+
 
 ## License
 
 License: GPLv2 or later
+
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
