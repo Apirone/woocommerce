@@ -17,19 +17,16 @@ if (window.jQuery) {
 };
 	var key = getUrlParameter("key");
 	var order = getUrlParameter("order");
-
 	get_query='/?wc-api=check_payment&key='+key+'&order='+order;
 	jQuery.ajax({
     url: get_query,             // указываем URL и
     dataType : "text",                     // тип загружаемых данных
     success: function (data, textStatus) { // вешаем свой обработчик на функцию success
         //console.log(data);
-        jQuery( ".apirone_result" ).html('<strong>'+data+'</strong>');
-        if(jQuery(".response-message-text").text() == '*ok*'){
-        }
+        jQuery( ".apirone_result" ).html('<h4>'+data+'</h4>');
     } ,
     error: function(xhr, ajaxOptions, thrownError){
-      jQuery( ".apirone_result" ).html( '<strong>Waiting for payment...</strong>' );
+      jQuery( ".apirone_result" ).html( '<h4>Waiting for payment...</h4>' );
     }
 	});
 	}
