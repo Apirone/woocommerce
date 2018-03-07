@@ -44,7 +44,7 @@ This Plugin requires Woocommerce. Please make sure you have Woocommerce installe
 1. Go to WordPress Admin panel » Plugins » Add New in the admin panel.
 2. Enter "Bitcoin forwarding - Apirone.com gateway" in the search box.
 3. Click Install Now.
-4. Open menu: Plugins » find WooCommerce Apirone gateway > cleck edit > choose file "woocommerce-apirone/config.php"
+4. Open menu: Plugins » find WooCommerce Apirone gateway > click edit > choose file "woocommerce-apirone/config.php"
 change example.com ("define('SHOP_URL', 'http://example.com');") to your site link. HTTP and HTTPS is important. Click update file.
 5. Enter your bitcoin address to Apirone Plugin Settings: Admin » WooCommerce > Settings > Checkout tab > Apirone.
 Turn "On" checkbox in Plugin on the same setting page.
@@ -54,7 +54,7 @@ Turn "On" checkbox in Plugin on the same setting page.
 1. Download https://github.com/Apirone/woocommerce/archive/master.zip
 2. Go to WordPress Admin panel » Plugins » Add New in admin panel.
 3. Upload zip archive in Upload Plugin page
-4. Open menu: Plugins » find WooCommerce Apirone gateway > cleck edit > choose file "woocommerce-apirone/config.php"
+4. Open menu: Plugins » find WooCommerce Apirone gateway > click edit > choose file "woocommerce-apirone/config.php"
 change example.com ("define('SHOP_URL', 'http://example.com');") to your site link. HTTP and HTTPS is important. Click update file.
 5. Enter your bitcoin address to Apirone Plugin Settings: Admin » WooCommerce > Settings > Checkout tab > Apirone.
 Turn "On" checkbox in Plugin on the same setting page.
@@ -63,7 +63,7 @@ Turn "On" checkbox in Plugin on the same setting page.
 
 1. Download https://github.com/Apirone/woocommerce/archive/master.zip
 2. Unzip and upload directory with all files to /wp-content/plugins/ through FTP client.
-3. Open menu: Plugins » find WooCommerce Apirone gateway > cleck edit > choose file "woocommerce-apirone/config.php"
+3. Open menu: Plugins » find WooCommerce Apirone gateway > click edit > choose file "woocommerce-apirone/config.php"
 change example.com ("define('SHOP_URL', 'http://example.com');") to your site link. HTTP and HTTPS is important. Click update file.
 4. Enter your bitcoin address to Apirone Plugin Settings: Admin » WooCommerce > Settings > Checkout tab > Apirone.
 Turn "On" checkbox in Plugin on the same setting page.
@@ -73,7 +73,7 @@ Turn "On" checkbox in Plugin on the same setting page.
 
 #### I will get money in USD, EUR, CAD, JPY, RUR...
 
-No. You will get money in bitcoins only. Customer sends bitcoins and we forward it to your wallet.
+No. You will get bitcoins only. Customer sends bitcoins and we forward it to your wallet.
 You can enter bitcoin address of your account of any trading platform and convert bitcoins to fiat money at any time.
 
 #### How can The Store cancel order and return bitcoins?
@@ -87,7 +87,7 @@ Bitcoin protocol has not refunds, chargebacks or transaction cancellations.
 
 A fixed rate fee 0.0002 BTC per transaction, regardless of the amount and the number of transactions. Accept bitcoins for million dollars and pay the fixed fee.
 
-We do not take the fee from amounts less than 100000 Satoshi.
+We do not take the fee from amounts less than 100,000 Satoshi.
 
 
 ## Changelog
