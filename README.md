@@ -71,19 +71,19 @@ Turn "On" checkbox in Plugin on the same setting page.
 
 ## Frequently Asked Questions
 
-### I will get money in USD, EUR, CAD, JPY, RUR...
+#### I will get money in USD, EUR, CAD, JPY, RUR...
 
 No. You will get money in bitcoins only. Customer sends bitcoins and we forward it to your wallet.
 You can enter bitcoin address of your account of any trading platform and convert bitcoins to fiat money at any time.
 
-### How can The Store cancel order and return bitcoins?
+#### How can The Store cancel order and return bitcoins?
 
 This process is fully manual because you will get all payments to your wallet. And only you control your money.
 Contact with the Customer, ask address and finish the deal.
 
 Bitcoin protocol has not refunds, chargebacks or transaction cancellations.
 
-### Fee
+#### Fee
 
 A fixed rate fee 0.0002 BTC per transaction, regardless of the amount and the number of transactions. Accept bitcoins for million dollars and pay the fixed fee.
 
