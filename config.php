@@ -1,25 +1,24 @@
 <?php
 /**
  * URL API of payment gateway
+ * This is Apirone Bitcoin Forwarding RESTful API query
+ * You can read more details at https://apirone.com/docs/bitcoin-forwarding-api
  */
-define('PROD_URL', 'https://apirone.com/api/v1/receive');
+define('ABF_PROD_URL', 'https://apirone.com/api/v1/receive');
 
-define('TEST_URL', 'https://apirone.com/api/v1/receive');
-define('COUNT_CONFIRMATIONS', '1'); //minimun confirmations count for accepting payment
-define('MAX_CONFIRMATIONS', '30'); // if 0 - max confirmations count is unlimited, -1 - function is disabled
+define('ABF_TEST_URL', 'https://apirone.com/api/v1/receive');
 
-/**
- * Logging
- */
-define('DEBUG', false);
+define('ABF_MAX_CONFIRMATIONS', '30'); // if 0 - max confirmations count is unlimited, -1 - function is disabled
 
 /**
  * Payment Icon
  */
-define('ICON', '/wp-content/plugins/woocommerce-apirone/logo.svg');
+
+define('ABF_ICON', plugins_url('logo.svg', __FILE__ ));
 
 /**
  * Shop URL
  */
-define('SHOP_URL', 'http://example.com'); // CHANGE THIS DOMAIN TO YOUR'S without slash "/" at the end of line.
+
+define('ABF_SHOP_URL', site_url()); // take Site URL for callbacks
 ?>

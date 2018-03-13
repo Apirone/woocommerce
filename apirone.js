@@ -1,7 +1,7 @@
 if (window.jQuery) { 
 	function apirone_query(){
 
-			var getUrlParameter = function getUrlParameter(sParam) {
+			var abfgetUrlParameter = function abfgetUrlParameter(sParam) {
     var sPageURL = decodeURIComponent(window.location.search.substring(1)),
         sURLVariables = sPageURL.split('&'),
         sParameterName,
@@ -15,11 +15,12 @@ if (window.jQuery) {
         }
     }
 };
-	var key = getUrlParameter("key");
-	var order = getUrlParameter("order");
-	get_query='/?wc-api=check_payment&key='+key+'&order='+order;
+	var key = abfgetUrlParameter("key");
+	var order = abfgetUrlParameter("order");
+    if (key != undefined && order != undefined) {
+	abf_get_query='/?wc-api=check_payment&key='+key+'&order='+order;
 	jQuery.ajax({
-    url: get_query,             // указываем URL и
+    url: abf_get_query,             // указываем URL и
     dataType : "text",                     // тип загружаемых данных
     success: function (data, textStatus) { // вешаем свой обработчик на функцию success
         //console.log(data);
@@ -30,5 +31,6 @@ if (window.jQuery) {
     }
 	});
 	}
+    }
 	setInterval(apirone_query, 5000);
 }
