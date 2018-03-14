@@ -234,15 +234,8 @@ function woocommerce_apironepayment()
 
         static function abf_convert_to_btc($currency, $value)
         {
-            $apironeConvertTotalCost = curl_init();
-            $apirone_tobtc           = 'https://apirone.com/api/v1/tobtc?currency=' . $currency . '&value=' . $value;
-            curl_setopt_array($apironeConvertTotalCost, array(
-                CURLOPT_URL => $apirone_tobtc,
-                CURLOPT_RETURNTRANSFER => 1
-            ));
-            $response_btc = curl_exec($apironeConvertTotalCost);
-            curl_close($apironeConvertTotalCost);
-            return $response_btc;
+            $response_btc = wp_remote_get('https://apirone.com/api/v1/tobtc?currency=' . $currency . '&value=' . $value);
+            return $response_btc['body'];
         }
 
         //checks that order has sale
@@ -319,7 +312,11 @@ function woocommerce_apironepayment()
             /**
              * Args for Forward query
              */
-            
+            $args           = array(
+                    'address' => $this->address,
+                    'callback' => urlencode(ABF_SHOP_URL . '?wc-api=callback_apirone&key=' . $order->order_key . '&order_id=' . $order_id)
+                );            
+
             $sales = $wpdb->get_results("SELECT * FROM $sale_table WHERE order_id = $order_id");
             
             if ($sales == null) {
@@ -328,26 +325,8 @@ function woocommerce_apironepayment()
                     'callback' => urlencode(ABF_SHOP_URL . '?wc-api=callback_apirone&key=' . $order->order_key . '&order_id=' . $order_id)
                 );
                 $apirone_create = $apirone_adr . '?method=create&address=' . $args['address'] . '&callback=' . $args['callback'];
-                
-                $apironeCurl = curl_init();
-                if ($this->testmode == 'yes') {
-                    $username = DEV_LOGIN;
-                    $password = DEV_PASSWORD;
-                    curl_setopt_array($apironeCurl, array(
-                        CURLOPT_URL => $apirone_create,
-                        /*CURLOPT_USERPWD => "$username:$password",*/
-                        CURLOPT_HTTPAUTH => CURLAUTH_BASIC,
-                        CURLOPT_RETURNTRANSFER => 1
-                    ));
-                } else {
-                    curl_setopt_array($apironeCurl, array(
-                        CURLOPT_URL => $apirone_create,
-                        CURLOPT_RETURNTRANSFER => 1
-                    ));
-                }
-                $response_create = curl_exec($apironeCurl);
-                curl_close($apironeCurl);
-                $response_create = json_decode($response_create, true);
+                $response_create = wp_remote_get( $apirone_adr . '?method=create&address=' . $args['address'] . '&callback=' . $args['callback'] );
+                $response_create = json_decode($response_create['body'], true);
                 if ($response_create['input_address'] != null){
                     $wpdb->insert($sale_table, array(
                         'time' => current_time('mysql'),
