@@ -1,9 +1,9 @@
 <?php
 /*
 Plugin Name: Apirone Bitcoin Forwarding
-Plugin URI: https://github.com/Apirone/woocommerce/archive/master.zip
+Plugin URI: https://github.com/Apirone/woocommerce/
 Description: Bitcoin Forwarding Plugin for Woocoomerce by Apirone Processing Provider.
-Version: 1.0
+Version: 1.1
 Author: Apirone LLC
 Author URI: http://www.apirone.com
 Copyright: © 2018 Apirone.
@@ -156,12 +156,12 @@ function woocommerce_apironepayment()
         }
         
         /**
-         * Check if this gateway is enabled and available in the user's country. Defaults it's USD
+         * Check if this gateway is enabled and available in the user's country
          */
         function abf_is_valid_for_use()
         {
             if (!in_array(get_option('woocommerce_currency'), array(
-                'USD'
+                'AFN', 'ALL', 'AMD', 'ANG', 'AOA', 'ARS', 'AUD', 'AWG', 'AZN', 'BAM', 'BBD', 'BCH', 'BDT', 'BGN', 'BHD', 'BIF', 'BMD', 'BND', 'BOB', 'BRL', 'BSD', 'BTC', 'BTN', 'BWP', 'BYN', 'BYR', 'BZD', 'CAD', 'CDF', 'CHF', 'CLF', 'CLP', 'CNH', 'CNY', 'COP', 'CRC', 'CUC', 'CVE', 'CZK', 'DJF', 'DKK', 'DOP', 'DZD', 'EEK', 'EGP', 'ERN', 'ETB', 'ETH', 'EUR', 'FJD', 'FKP', 'GBP', 'GEL', 'GGP', 'GHS', 'GIP', 'GMD', 'GNF', 'GTQ', 'GYD', 'HKD', 'HNL', 'HRK', 'HTG', 'HUF', 'IDR', 'ILS', 'IMP', 'INR', 'IQD', 'ISK', 'JEP', 'JMD', 'JOD', 'JPY', 'KES', 'KGS', 'KHR', 'KMF', 'KRW', 'KWD', 'KYD', 'KZT', 'LAK', 'LBP', 'LKR', 'LRD', 'LSL', 'LTC', 'LTL', 'LVL', 'LYD', 'MAD', 'MDL', 'MGA', 'MKD', 'MMK', 'MNT', 'MOP', 'MRO', 'MTL', 'MUR', 'MVR', 'MWK', 'MXN', 'MYR', 'MZN', 'NAD', 'NGN', 'NIO', 'NOK', 'NPR', 'NZD', 'OMR', 'PAB', 'PEN', 'PGK', 'PHP', 'PKR', 'PLN', 'PYG', 'QAR', 'RON', 'RSD', 'RUB', 'RWF', 'SAR', 'SBD', 'SCR', 'SEK', 'SGD', 'SHP', 'SLL', 'SOS', 'SRD', 'SSP', 'STD', 'SVC', 'SZL', 'THB', 'TJS', 'TMT', 'TND', 'TOP', 'TRY', 'TTD', 'TWD', 'TZS', 'UAH', 'UGX', 'USD', 'UYU', 'UZS', 'VEF', 'VND', 'VUV', 'WST', 'XAF', 'XAG', 'XAU', 'XCD', 'XDR', 'XOF', 'XPD', 'XPF', 'XPT', 'YER', 'ZAR', 'ZMK', 'ZMW', 'ZWL'
             ))) {
                 return false;
             }
@@ -204,7 +204,7 @@ function woocommerce_apironepayment()
                     'title' => __('On/off', 'woocommerce'),
                     'type' => 'checkbox',
                     'label' => __('On', 'woocommerce'),
-                    'default' => 'yes'
+                    'default' => 'no'
                 ),
                 'address' => array(
                     'title' => __('Destination Bitcoin address', 'woocommerce'),
@@ -233,9 +233,32 @@ function woocommerce_apironepayment()
          */
 
         static function abf_convert_to_btc($currency, $value)
-        {
+        {   
+            
+            if ($currency == 'BTC') {
+                return $value;
+            } else { if ( $currency == 'BTC' || $currency == 'USD' || $currency == 'EUR' || $currency == 'GBP') {
             $response_btc = wp_remote_get('https://apirone.com/api/v1/tobtc?currency=' . $currency . '&value=' . $value);
-            return $response_btc['body'];
+            return $response_btc['body'];      
+            } else {
+            $args = array(
+                'headers' => array(
+                'User-Agent' => 'Apirone Bitcoin Gateway',
+                'CB-VERSION' => '2017-08-07'
+                )
+            );
+            $response_coinbase = wp_remote_request('https://api.coinbase.com/v2/prices/BTC-'. $currency .'/buy', $args);
+            $response_coinbase = json_decode($response_coinbase['body'], true);
+            $response_coinbase = $response_coinbase['data']['amount'];
+            if (is_numeric($response_coinbase)) {
+                return round($value / $response_coinbase, 8);
+            } else {
+                return 0;
+            };
+            
+                
+            }     
+            }
         }
 
         //checks that order has sale
@@ -253,7 +276,7 @@ function woocommerce_apironepayment()
             global $wpdb;
             global $woocommerce;
             $order = new WC_Order($order_id);
-            $total = WC_APIRONE::abf_convert_to_btc('USD', $order->order_total);
+            $total = WC_APIRONE::abf_convert_to_btc(get_option('woocommerce_currency'), $order->order_total);
             $transactions_table = $wpdb->prefix . 'woocommerce_apirone_transactions';
             $transactions = $wpdb->get_results("SELECT * FROM $transactions_table WHERE order_id = $order_id");
             $remains = 0;
@@ -285,7 +308,7 @@ function woocommerce_apironepayment()
             foreach ($transactions as $transaction) {
                 $total_paid+=$transaction->paid;
             }
-            $response_btc = WC_APIRONE::abf_convert_to_btc('USD', $order->order_total);
+            $response_btc = WC_APIRONE::abf_convert_to_btc(get_option('woocommerce_currency'), $order->order_total);
             $remains = $response_btc - $total_paid/100000000;
             if($remains < 0) $remains = 0;  
             return $remains;
@@ -307,45 +330,48 @@ function woocommerce_apironepayment()
             
             $_SESSION['testmode'] = $this->testmode;
             
-            
-            $response_btc = $this->abf_convert_to_btc('USD', $order->order_total);
-            /**
-             * Args for Forward query
-             */
-            $args           = array(
-                    'address' => $this->address,
-                    'callback' => urlencode(ABF_SHOP_URL . '?wc-api=callback_apirone&key=' . $order->order_key . '&order_id=' . $order_id)
-                );            
+            $response_btc = $this->abf_convert_to_btc(get_option('woocommerce_currency'), $order->order_total);
 
-            $sales = $wpdb->get_results("SELECT * FROM $sale_table WHERE order_id = $order_id");
-            
-            if ($sales == null) {
+            if ($this->abf_is_valid_for_use() && $response_btc > 0) {
+                /**
+                 * Args for Forward query
+                 */
                 $args           = array(
-                    'address' => $this->address,
-                    'callback' => urlencode(ABF_SHOP_URL . '?wc-api=callback_apirone&key=' . $order->order_key . '&order_id=' . $order_id)
-                );
-                $apirone_create = $apirone_adr . '?method=create&address=' . $args['address'] . '&callback=' . $args['callback'];
-                $response_create = wp_remote_get( $apirone_adr . '?method=create&address=' . $args['address'] . '&callback=' . $args['callback'] );
-                $response_create = json_decode($response_create['body'], true);
-                if ($response_create['input_address'] != null){
-                    $wpdb->insert($sale_table, array(
-                        'time' => current_time('mysql'),
-                        'order_id' => $order_id,
-                        'address' => $response_create['input_address']
-                     ));
-                } else{
-                    echo "No Input Address from Apirone :(";
-                }
-            } else {
+                        'address' => $this->address,
+                        'callback' => urlencode(ABF_SHOP_URL . '?wc-api=callback_apirone&key=' . $order->order_key . '&order_id=' . $order_id)
+                    );            
+    
+                $sales = $wpdb->get_results("SELECT * FROM $sale_table WHERE order_id = $order_id");
                 
-                $response_create['input_address'] = $sales[0]->address;
-            }
-            if ($response_create['input_address'] != null){
+                if ($sales == null) {
+                    $args           = array(
+                        'address' => $this->address,
+                        'callback' => urlencode(ABF_SHOP_URL . '?wc-api=callback_apirone&key=' . $order->order_key . '&order_id=' . $order_id)
+                    );
+                    $apirone_create = $apirone_adr . '?method=create&address=' . $args['address'] . '&callback=' . $args['callback'];
+                    $response_create = wp_remote_get( $apirone_adr . '?method=create&address=' . $args['address'] . '&callback=' . $args['callback'] );
+                    $response_create = json_decode($response_create['body'], true);
+                    if ($response_create['input_address'] != null){
+                        $wpdb->insert($sale_table, array(
+                            'time' => current_time('mysql'),
+                            'order_id' => $order_id,
+                            'address' => $response_create['input_address']
+                         ));
+                    } else{
+                        echo "No Input Address from Apirone :(";
+                    }
+                } else {
+                    $response_create['input_address'] = $sales[0]->address;
+                }
+                if ($response_create['input_address'] != null){
                 echo '<div class="woocommerce"><ul class="order_details"><li>Please send exactly <strong>' . $response_btc . ' BTC</strong> </li><li>for this address:<strong>' . $response_create['input_address'];
                 echo '</strong></li><li><img src="https://apirone.com/api/v1/qr?message=' . urlencode("bitcoin:" . $response_create['input_address'] . "?amount=" . $response_btc . "&label=Apirone") . '"></li><li class="apirone_result"></li></ul></div>';
-            }
-            if ((ABF_DEBUG == "yes") && !is_null($response_create)) {
-                abf_logger('Request: ' . $apirone_create . ': ' . print_r($args, true) . 'Response: ' . $response);
+                }
+                if ((ABF_DEBUG == "yes") && !is_null($response_create)) {
+                    abf_logger('Request: ' . $apirone_create . ': ' . print_r($args, true) . 'Response: ' . $response);
+                }
+            } else {
+                echo "Apirone couldn't exchange " . get_option('woocommerce_currency') . " to BTC :(";
             }
         }
         
@@ -416,7 +442,7 @@ function woocommerce_apironepayment()
                 echo 'Error';
                 exit;
             }
-            $response_btc = WC_APIRONE::abf_convert_to_btc('USD', $order->order_total);
+            $response_btc = WC_APIRONE::abf_convert_to_btc(get_option('woocommerce_currency'), $order->order_total);
             if ($order->status == 'processing' && WC_APIRONE::abf_check_remains($safe_order)) {
                 echo 'Payment accepted. Thank You!';
             } else {
@@ -440,6 +466,7 @@ function woocommerce_apironepayment()
     {
         global $woocommerce;
         global $wpdb;
+
         $sale_table = $wpdb->prefix . 'woocommerce_apirone_sale';
         $transactions_table = $wpdb->prefix . 'woocommerce_apirone_transactions';
         $abf_api_output = 0; //Nothing to do (empty callback, wrong order Id or Input Address)
@@ -569,14 +596,14 @@ function woocommerce_apironepayment()
                             }
                         }
                     }
-                if($flag && $apirone_order['confirmations'] >= ABF_COUNT_CONFIRMATIONS){
+                $response_btc = WC_APIRONE::abf_convert_to_btc(get_option('woocommerce_currency'), $order->order_total);                 
+                if($flag && $apirone_order['confirmations'] >= ABF_COUNT_CONFIRMATIONS && $response_btc > 0){
                     $abf_api_output = 10; //writing into DB, taking notes
-                    $response_btc = WC_APIRONE::abf_convert_to_btc('USD', $order->order_total);
                     $notes        = 'Input Address: ' . $apirone_order['input_address'] . ', Transaction hash: ' . $apirone_order['transaction_hash'] . 'Payment in BTC:' . $apirone_order['value']/100000000;
                     if ($response_btc > $apirone_order['value']/100000000)
-                        $notes .= '. User trasfrer not enough money in USD. Waiting for next payment.';
+                        $notes .= '. User trasfrer not enough money in your shop currency. Waiting for next payment.';
                     if ($response_btc < $apirone_order['value']/100000000)
-                        $notes .= '. User trasfrer more money than You need in USD.';
+                        $notes .= '. User trasfrer more money than You need in your shop currency.';
 
                     if($empty){
                     $update_query = array(
@@ -609,6 +636,8 @@ function woocommerce_apironepayment()
                     $order->add_order_note('Order total: '.$response_btc . ' BTC');
 
                     $abf_api_output = '*ok*';
+                } else {
+                    $abf_api_output = '11'; //No currency or small confirmations count or same transaction in DB
                 }
             }
         }

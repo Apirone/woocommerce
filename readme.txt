@@ -1,19 +1,18 @@
 === Apirone Bitcoin Forwarding ===
 Contributors: apirone
 Donate link: https://apirone.com
-Tags: accept bitcoin, bitcoins, btc, forwarding, payment, processing, acquiring, receive bitcoins, pay via cryptocurrency, crypto, bitcoin wallet
-Stable tag: 5.6
+Tags: accept bitcoin, bitcoins, BTC, forwarding, payment, processing, acquiring, receive bitcoins, pay via cryptocurrency, crypto, bitcoin wallet
 Requires PHP: 5.6
-Requires at least: 5.2
-Tested up to: 7.1.14
+Requires at least: 4.0
+Tested up to: 4.9.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Accept Bitcoins and forward payments to your wallet directly. No account /KYC /registration necessary. Bitcoins only, no fiat money. Apirone.com Gateway for Woocommerce.
+Accept Bitcoins and forward payments to your wallet directly. No account / KYC / registration necessary. Bitcoins only, no fiat money.
 
 == Description ==
 
-Use Apirone’s plugin to accept bitcoin payments from customers around the World. We support Bitcoin SegWit protocol. These transactions have priority and less Bitcoin network fee.
+Use Apirone's plugin to accept bitcoin payments from customers around the World. We support Bitcoin SegWit protocol. These transactions have priority and less Bitcoin network fee.
 
 Key features:
 
@@ -26,7 +25,7 @@ Key features:
 * Unlimited count of your requests (generate thousands of bitcoin addresses for thousands of your customers)
 
 
-How does it works?
+How does it work?
 
 1. The Buyer prepared the order and click to pay via bitcoins.
 1. The Store sends bitcoin address and site callback URL to Apirone API Server. The Store receives new bitcoin address, QR code and converted the amount to BTC for payment.
@@ -36,7 +35,7 @@ How does it works?
 * Got it. After 1 confirmation our Server forward confirmed bitcoins to Store's destination address and do the second callback. Now the Buyer gets the desired order.
 * Store finished order and ready for next customers.
 
-Plugin use our own RESTful API - Bitcoin Forwarding. You can read more "How does it works" at https://apirone.com/docs/how-it-works and details about bitcoin forwarding. Site support multi-language documentation.
+The plugin uses our own RESTful API - Bitcoin Forwarding. You can read more "How does it work" at https://apirone.com/docs/how-it-works and details about bitcoin forwarding. Site support multi-language documentation.
 
 Everyone can accept bitcoin payments!
 
@@ -47,13 +46,13 @@ This Plugin requires Woocommerce. Please make sure you have Woocommerce installe
 
 Installation via WordPress Plugin Manager:
 
-1. Go to WordPress Admin panel » Plugins » Add New in the admin panel.
+1. Go to WordPress Admin panel > Plugins > Add New in the admin panel.
 1. Enter "Apirone Bitcoin Forwarding" in the search box.
 1. Click Install Now.
-1. Enter your bitcoin address to Apirone Plugin Settings: Admin » WooCommerce > Settings > Checkout tab > Apirone.
+1. Enter your bitcoin address to Apirone Plugin Settings: Admin > WooCommerce > Settings > Checkout tab > Apirone.
 Turn "On" checkbox in Plugin on the same setting page.
 Debug mode saving all responses, debugging messages, errors logs to "apirone-payment.log", but as a best practice do not enable this unless you are having issues with the plugin.
-"Minimun confirmations count" is a count of Bitcoin network confirmations. Recomend 3, minimum 1 conf.
+"Minimum confirmations count" is a count of Bitcoin network confirmations. Recommend 3, minimum 1 conf.
 
 
 
@@ -69,7 +68,7 @@ You can enter bitcoin address of your account of any trading platform and conver
 SegWit is the protocol of process by which blocks on a blockchain are made smaller by removing signature data from Bitcoin transactions. These transactions have high priority and less network fee.
 You can use as destination address any bitcoin wallet starts by 1, 3 or bc1.
 
-= How can The Store cancell the order and return bitcoins? =
+= How can The Store cancel the order and return bitcoins? =
 
 This process is fully manual because you will get all payments to your wallet. And only you control your money.
 Contact with the Customer, ask address and finish the deal.
@@ -84,12 +83,14 @@ We do not take the fee from amounts less than 100000 Satoshi.
 == Screenshots ==
 
 1. Apirone bitcoin plugin settings page. Enter your bitcoin address and turn on.
-2. Customer choose payment method.
-3. Integrated payment details onto page. White label processing. Status of payment in real-time.
+2. Customer chooses the payment method.
+3. Integrated payment details onto the page. White label processing. Status of payment in real-time.
 
 == Changelog ==
+
+= 1.1 =
+- Updated exchange rates API. You can use any currency inlcude native bitcoin item price.
 
 = 1.0 =
 - Initial Revision. Use Bitcoin mainnet with SegWit support.
 RestAPI v1.0 https://apirone.com/docs/bitcoin-forwarding-api
-
