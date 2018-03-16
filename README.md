@@ -92,6 +92,9 @@ We do not take the fee from amounts less than 100,000 Satoshi.
 
 ## Changelog
 
+= 1.1 =
+- Updated exchange rates API. You can use any currency inlcude native bitcoin item price.
+
 = 1.0 =
 
 - Initial Revision. Use Bitcoin mainnet with SegWit support.
