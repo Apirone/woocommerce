@@ -1,29 +1,30 @@
 === Apirone Bitcoin Forwarding ===
 Contributors: apirone
 Donate link: https://apirone.com
-Tags: accept bitcoin, bitcoins, BTC, forwarding, payment, processing, acquiring, receive bitcoins, pay via cryptocurrency, crypto, bitcoin wallet
+Tags: bitcoin, accept bitcoin, bitcoin payments, bitcoins, BTC, crypto, cryptocurrency, forwarding, payment, processing, acquiring, receive bitcoins, pay via cryptocurrency, crypto, bitcoin wallet
 Requires PHP: 5.6
 Requires at least: 4.0
-Tested up to: 4.9.4
+Tested up to: 4.9.7
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Accept Bitcoins and forward payments to your wallet directly. No account / KYC / registration necessary. Bitcoins only, no fiat money.
+Accept Bitcoins at your WordPress WooCommerce store. No account / KYC / registration necessary. Bitcoins only, no fiat money.
 
 == Description ==
 
-Use Apirone's plugin to accept bitcoin payments from customers around the World. We support Bitcoin SegWit protocol. These transactions have priority and less Bitcoin network fee.
+Use Apirone's plugin to accept Bitcoin payments from customers around the World. We support Bitcoin SegWit protocol. These transactions have priority and less Bitcoin network fee.
 
 Key features:
 
 * Payments forward directly into your bitcoin wallet (we do not hold your money)
-* No KYC/documentation necessary
+* No KYC/documentation necessary. No third-party accounts. Use your own wallet. 
 * Fixed Fee 0.0002 BTC (flat rate for any amount forever, no fee for amounts less than 100,000 Satoshi)
-* White label processing (your online shop accept payments directly without redirects, iframes, payment advertisements, etc.)
+* White label processing (your online store seamless accept payments without redirects, iframes, payment advertisements, etc.)
 * Around the world
 * TOR network support
 * Unlimited count of your requests (generate thousands of bitcoin addresses for thousands of your customers)
 
+Example store: http://wordpress.bitcoinexamples.com
 
 How does it work?
 
@@ -52,11 +53,16 @@ Installation via WordPress Plugin Manager:
 1. Enter your bitcoin address to Apirone Plugin Settings: Admin > WooCommerce > Settings > Checkout tab > Apirone.
 Turn "On" checkbox in Plugin on the same setting page.
 Debug mode saving all responses, debugging messages, errors logs to "apirone-payment.log", but as a best practice do not enable this unless you are having issues with the plugin.
-"Minimum confirmations count" is a count of Bitcoin network confirmations. Recommend 3, minimum 1 conf.
+Order's statuses created by default. Change it if needed.
+"Minimum confirmations count" is a count of Bitcoin network confirmations. Recommend 3, default 2, minimum 1 conf.
 
 
 
 == Frequently Asked Questions ==
+
+= Can you support me directly with plugin? =
+
+Yes. You can create ticket here. Email or chat via skype: support@apirone.com Also via our site: https://apirone.com
 
 = I will get money in USD, EUR, CAD, JPY, RUR... =
 
@@ -82,11 +88,32 @@ We do not take the fee from amounts less than 100000 Satoshi.
 
 == Screenshots ==
 
-1. Apirone bitcoin plugin settings page. Enter your bitcoin address and turn on.
-2. Customer chooses the payment method.
-3. Integrated payment details onto the page. White label processing. Status of payment in real-time.
+1. Add new plugin.
+2. Search and install plugin from marketplace.
+3. Activate after installation from marketplace.
+4. Upload plugin in zip archive.
+5. Activate after installation from zip archive.
+6. WooCommerce payment page. Check plugin activation. Manage settings.
+7. Apirone bitcoin plugin settings page. Enter your bitcoin address and check other fields.
+8. The store checkout page with pre-calculated amount in Bitcoins.
+9. Integrated payment details onto the WooCommerce page. Status of payment in real-time.
+10. Partial payment of order. Example of other store template.
 
 == Changelog ==
+
+= 2.0 =
+- Added pre-calculation of amount in Bitcoins.
+- Added partial payment ability.
+- Formated window for payment.
+- Link to transaction(s).
+- Status auto-update.
+- Total improvement.
+
+= 1.2.1 =
+- Bitcoin logo fixed for any templates.
+
+= 1.2 =
+- Bitcoin logo update. Design improvement. Some descriptions updated.
 
 = 1.1 =
 - Updated exchange rates API. You can use any currency inlcude native bitcoin item price.

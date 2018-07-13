@@ -1,9 +1,10 @@
-# Woocommerce plugin - Bitcoin forwarding
+﻿# Woocommerce plugin - Bitcoin forwarding
 
 Requires PHP at least: 5.2
 
-Tested up to: 7.1.14
-
+Requires at least WooCommerce: 4.0
+Tested up to: 4.9.7
+License: GPLv2 or later
 
 ## Description
 
@@ -71,7 +72,7 @@ Turn "On" checkbox in Plugin on the same setting page.
 
 ## Frequently Asked Questions
 
-#### I will get money in USD, EUR, CAD, JPY, RUR...
+#### I will get money in USD, EUR, CAD, JPY, RUR...?
 
 No. You will get bitcoins only. Customer sends bitcoins and we forward it to your wallet.
 You can enter bitcoin address of your account of any trading platform and convert bitcoins to fiat money at any time.
@@ -91,6 +92,14 @@ We do not take the fee from amounts less than 100,000 Satoshi.
 
 
 ## Changelog
+
+= 2.0 =
+- Added pre-calculation of amount in Bitcoins.
+- Added partial payment ability.
+- Formated window for payment.
+- Link to transaction(s).
+- Status auto-update.
+- Total improvement.
 
 = 1.1 =
 - Updated exchange rates API. You can use any currency inlcude native bitcoin item price.
