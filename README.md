@@ -8,30 +8,40 @@ License: GPLv2 or later
 
 ## Description
 
-Use Apirone’s plugin to accept bitcoin payments from customers and forward payments to your wallet directly. Bitcoins only, no fiat money. We support Bitcoin SegWit protocol. These transactions have priority and less Bitcoin network fee.
+Use the Apirone plugin to receive payments in bitcoin from all around the world. We support Bitcoin SegWit protocol which has priority on the network and lower fees.
 
 Key features:
 
-* Payments forward directly into your bitcoin wallet (we do not hold your money)
-* No KYC/documentation necessary
-* Fixed Fee 0.0002 BTC (flat rate for any amount forever, no fee for amounts less than 100,000 Satoshi)
-* White label processing (your online shop accept payments directly without redirects, iframes, payment advertisements, etc.)
-* Around the world
-* TOR network support
-* Unlimited count of your requests (generate thousands of bitcoin addresses for thousands of your customers)
+* We transfer your payment directly into your bitcoin wallet ( we do not hold client money)
+* You do not need to complete a KYC/Documentation to start using our plugin. No third-party accounts during the process, use your own wallet.
+* We will charge a fixed fee (0.0002 BTC/transaction) which does not depend on the amount of the order. No fee for amounts less than 100,000 Satoshi.
+* White label processing (your online store accepts payments without redirects, iframes, advertisements, logo, etc.)
+* There is no restriction on the customer's country of residence. This plugins works well all over the world.
+* We support the Tor network
+* You can create unlimited number of requests. 
+
 
 
 ## How does it works?
 
-1. The Buyer prepared the order and click to pay via bitcoins.
-1. The Store sends bitcoin address and site callback URL to Apirone API Server. The Store receive new bitcoin address, QR code and converted the amount to BTC for payment.
-1. Buyer scan QR code and pay for the order. This transaction goes to the blockchain.
-* Our Server immediately got it and send a callback to supplied Store URL. Now it's first callback about the unconfirmed transaction. It's too early to pass order from Store to Buyer. We just notify that payment initiated.
-* Waiting for payment confirmation on the network. Usually, it will take about ten minutes.
-* Got it. After 1 confirmation our Server forward confirmed bitcoins to Store's destination address and do the second callback. Now the Buyer gets the desired order.
-* Store finished order and ready for next customers.
+1. The Buyer prepares the order and click on the “pay with bitcoins” button.
+1. The store sends its bitcoin address and the callback URL of its site to the Apirone API Server. He will receive immediately a new bitcoin, a QR code and also the amount of the order converted into Bitcoin.
+1. Then, the buyer scans the QR code and pays for the order. This transaction goes to blockchain
+
+* Our server immediately intercepts it and sends a callback to the URL address provided by the store. This is only the first callback regarding this unconfirmed transaction. It is too early to deliver the order. We notify the store that a payment order has been initiated.
+
+* Now we look forward to the confirmation on the network. Usually, it will take about ten minutes. Usually, it takes about 10 minutes.
+
+* After the first confirmation, our server transfers the bitcoin to the destination address provided by the store and makes a second callback. The buyer can now receive his products.
+
+* The store completes the transaction.
+
+
+The plugin work with our own RESTful API – Bitcoin Forwarding. For more details on how does it works, visit the Apirone website, in the section “How does it work” https://apirone.com/docs/how-it-works
+Multilingual interface available in German, English, French and Russian.
 
 Everyone can accept bitcoin payments!
+
 
 
 
