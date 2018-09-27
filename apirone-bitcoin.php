@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 /*
 Plugin Name: Apirone Bitcoin Forwarding
 Plugin URI: https://github.com/Apirone/woocommerce/
