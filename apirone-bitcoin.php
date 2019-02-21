@@ -1,9 +1,9 @@
 <?php
 /*
-Plugin Name: Apirone Bitcoin Forwarding
+Plugin Name: Apirone Bitcoin Forwarding 
 Plugin URI: https://github.com/Apirone/woocommerce/
 Description: Bitcoin Forwarding Plugin for Woocoomerce by Apirone Processing Provider.
-Version: 2.0
+Version: 2.0.2
 Author: Apirone LLC
 Author URI: https://www.apirone.com
 Copyright: © 2018 Apirone.
@@ -48,7 +48,7 @@ function abf_install()
         mdkey text NOT NULL,
         PRIMARY KEY (id)
     ) $charset_collate;";
-    $sql .= "INSERT INTO $secret_table (`id`, `mdkey`) VALUES (1, MD5(NOW()))"; 
+    $sql .= "INSERT IGNORE INTO $secret_table (`id`, `mdkey`) VALUES (1, MD5(NOW()))"; 
     require_once(ABSPATH . 'wp-admin/includes/upgrade.php');
     dbDelta($sql);
     add_option('apirone_db_version', $apirone_db_version);
@@ -89,7 +89,7 @@ add_action('plugins_loaded', 'abf_update_db_check');
 
 function abf_enqueue_script()
 {
-    wp_enqueue_style( 'apirone_style', plugin_dir_url(__FILE__) . 'apirone.css' );
+    wp_enqueue_style( 'apirone_style', plugin_dir_url(__FILE__) . 'apirone_style.css' );
     wp_enqueue_script('apirone_script', plugin_dir_url(__FILE__) . 'apirone.js', array(
         'jquery'
     ), '1.0');
@@ -178,53 +178,41 @@ function woocommerce_apironepayment()
             $this->abf_logger('[Info] Entered generate_order_states_html()...');
 
             ob_start();
-
             $apirone_statuses = array('new'=>'New Order', 'partiallypaid'=>'Partially paid or waiting for confirmations', 'complete'=>'Completed');
             $default_statuses = array('new'=>'wc-on-hold', 'partiallypaid'=>'wc-processing', 'complete'=>'wc-completed');
 
             $wc_statuses = wc_get_order_statuses();
 
-            ?>
-            <tr valign="top">
+            ?><tr valign="top">
                 <th scope="row" class="titledesc">Order States</th>
                 <td class="forminp" id="abf_order_states">
-                    <table cellspacing="0">
-                        <?php
-
+                    <table cellspacing="0"><?php
                             foreach ($apirone_statuses as $apirone_state => $apirone_name) {
                             ?>
                             <tr>
                             <th><?php echo $apirone_name; ?></th>
                             <td>
-                                <select name="woocommerce_abf_order_states[<?php echo $apirone_state; ?>]">
-                                <?php
-
+                                <select name="woocommerce_abf_order_states[<?php echo $apirone_state; ?>]"><?php
                                 $order_states = get_option('woocommerce_apirone_settings');
                                 $order_states = $order_states['order_states'];
                                 foreach ($wc_statuses as $wc_state => $wc_name) {
                                     $current_option = $order_states[$apirone_state];
-
                                     if (true === empty($current_option)) {
                                         $current_option = $default_statuses[$apirone_state];
                                     }
-
                                     if ($current_option === $wc_state) {
                                         echo "<option value=\"$wc_state\" selected>$wc_name</option>\n";
                                     } else {
                                         echo "<option value=\"$wc_state\">$wc_name</option>\n";
                                     }
                                 }
-                                ?>
-                                </select>
+                                ?></select>
                             </td>
-                            </tr>
-                            <?php
+                            </tr><?php
                         }
-                        ?>
-                    </table>
+                        ?></table>
                 </td>
-            </tr>
-            <?php
+            </tr><?php
 
             $this->abf_logger('[Info] Leaving generate_order_states_html()...');
             return ob_get_clean();
@@ -255,8 +243,9 @@ function woocommerce_apironepayment()
             if (true === isset($_POST['woocommerce_abf_order_states'])) {
 
                 $abf_settings = get_option('woocommerce_apirone_settings');
-                $order_states = $abf_settings['order_states'];
-
+                /*print_r($abf_settings);*/
+                //$order_states = $abf_settings['order_states'];
+                $order_states = array();
                 foreach ($apirone_statuses as $apirone_state => $apirone_name) {
                     if (false === isset($_POST['woocommerce_abf_order_states'][ $apirone_state ])) {
                         continue;
@@ -264,13 +253,17 @@ function woocommerce_apironepayment()
 
                     $wc_state = $_POST['woocommerce_abf_order_states'][ $apirone_state ];
 
+
                     if (true === array_key_exists($wc_state, $wc_statuses)) {
+                        //print_r('exists');
                         $this->abf_logger('[Info] Updating order state ' . $apirone_state . ' to ' . $wc_state);
                         $order_states[$apirone_state] = $wc_state;
                     }
 
                 }
+                //print_r($order_states);
                 $abf_settings['order_states'] = $order_states;
+                /*print_r($abf_settings);*/
                 update_option('woocommerce_apirone_settings', $abf_settings);
             }
 
@@ -295,24 +288,17 @@ function woocommerce_apironepayment()
          */
         public function admin_options()
         {
-?>
-        <h3><?php _e(APIRONEPAYMENT_TITLE_1, 'woocommerce');?></h3>
-        <p><?php _e(APIRONEPAYMENT_TITLE_2, 'woocommerce');?></p>
-
-      <?php if ($this->abf_is_valid_for_use()): ?>
+?><h3><?php _e(APIRONEPAYMENT_TITLE_1, 'woocommerce');?></h3>
+  <p><?php _e(APIRONEPAYMENT_TITLE_2, 'woocommerce');?></p>
+<?php if ($this->abf_is_valid_for_use()): ?>
 
         <table class="form-table">
 
-        <?php
-                // Generate the HTML For the settings form.
-                $this->generate_settings_html(); ?>
-    </table><!--/.form-table-->
-
-    <?php else: ?>
+        <?php $this->generate_settings_html(); ?>
+    </table><?php else: ?>
         <div class="inline error"><p><strong><?php
                 _e('Gateway offline', 'woocommerce');
-?></strong>: <?php _e($this->id . ' don\'t support your shop currency', 'woocommerce'); ?></p></div>
-        <?php endif;
+?></strong>: <?php _e($this->id . ' don\'t support your shop currency', 'woocommerce'); ?></p></div><?php endif;
             
         } // End admin_options()
         
@@ -872,7 +858,7 @@ public function abf_filled_transaction_hash($apirone_order){
             <div class="abf-info">
                 <p>If you are unable to complete your payment, you can try again later to place a new order with saved cart.<br>You can pay partially, but please do not close this window before next payment to prevent loss of bitcoin address and invoice number.
                 </p>
-                <p class="abf-right"><a href="https://apirone.com/" target="_blank"><img src="' . esc_url( plugins_url( 'apirone.svg', __FILE__ ) ) . '"  alt=""></a></p>
+                <p class="abf-right"><a href="https://apirone.com/" target="_blank"><img src="' . esc_url( plugins_url( 'apirone_logo.svg', __FILE__ ) ) . '"  alt=""></a></p>
                 <div class="abf-clear"></div>
             </div>
         </div>
