@@ -89,8 +89,8 @@ add_action('plugins_loaded', 'abf_update_db_check');
 
 function abf_enqueue_script()
 {
-    wp_enqueue_style( 'apirone_style', plugin_dir_url(__FILE__) . 'apirone_style.css' );
-    wp_enqueue_script('apirone_script', plugin_dir_url(__FILE__) . 'apirone.js', array(
+    wp_enqueue_style( 'apirone_style', plugin_dir_url(__FILE__) . 'btca_style.css' );
+    wp_enqueue_script('apirone_script', plugin_dir_url(__FILE__) . 'btca_script.js', array(
         'jquery'
     ), '1.0');
 }
@@ -794,83 +794,83 @@ public function abf_filled_transaction_hash($apirone_order){
                     if(!is_null($response_create['body'])){
                         $response_create = json_decode($response_create['body'], true);
                     } else{
-                        echo "No Input Address from Apirone :(";
+                        echo "No Input Address from processing provider :(";
                     }
                     if ($response_create['input_address'] != null){
                         $this->abf_addSale($order_id, $response_create['input_address']);
                     } else {
-                        echo "No Input Address from Apirone :(";
+                        echo "No Input Address from processing provider :(";
                     }
                 } else {
                     $response_create['input_address'] = $sales[0]->address;
                 }
                 if ($response_create['input_address'] != null){
-                echo '<div class="abf-frame">
-        <div class="abf-header">
+                echo '<div class="btca-frame">
+        <div class="btca-header">
             <div>
-                <div class="abf-ash1"><img src="' . esc_url( plugins_url( 'logo.svg', __FILE__ ) ) . '" alt=""></div>
+                <div class="btca-ash1"><img src="' . esc_url( plugins_url( 'logo.svg', __FILE__ ) ) . '" alt=""></div>
             </div>
-            <div style="text-align: center; background-color:#fff;"><span class="abf-qr">
-               <img class="abf-img-height" src="https://apirone.com/api/v1/qr?message=' . urlencode("bitcoin:" . $response_create['input_address'] . "?amount=" . $response_btc . "&label=Apirone") . '">
+            <div style="text-align: center; background-color:#fff;"><span class="btca-qr">
+               <img class="btca-img-height" src="https://chart.googleapis.com/chart?chs=225x225&cht=qr&chl=' . urlencode("bitcoin:" . $response_create['input_address'] . "?amount=" . $response_btc . "&label=BTCA") . '">
                </span>
             </div> 
         </div>
-        <div class="abf-form">
-            <div class="abf-ash1">
-                Please send <strong><span class="abf-totalbtc">' . $response_btc . '</span></strong> BTC
+        <div class="btca-form">
+            <div class="btca-ash1">
+                Please send <strong><span class="btca-totalbtc">' . $response_btc . '</span></strong> BTC
                 to address:
             </div>
-            <div class="abf-address abf-topline abf-ash2 abf-input-address">'. $response_create['input_address'] . '</div>
-            <div class="abf-data abf-topline">
-                <div class="abf-list">
-                    <div class="abf-list-item">
-                        <div class="abf-label">Merchant:</div>
-                        <div class="abf-value">' . $merchant . '</div>
+            <div class="btca-address btca-topline btca-ash2 btca-input-address">'. $response_create['input_address'] . '</div>
+            <div class="btca-data btca-topline">
+                <div class="btca-list">
+                    <div class="btca-list-item">
+                        <div class="btca-label">Merchant:</div>
+                        <div class="btca-value">' . $merchant . '</div>
                     </div>
-                    <div class="abf-list-item">
-                        <div class="abf-label">Amount to pay:</div>
-                        <div class="abf-value"><span class="abf-totalbtc">' . $response_btc . '</span> BTC</div>
+                    <div class="btca-list-item">
+                        <div class="btca-label">Amount to pay:</div>
+                        <div class="btca-value"><span class="btca-totalbtc">' . $response_btc . '</span> BTC</div>
                     </div>
-                    <div class="abf-list-item">
-                        <div class="abf-label">Arrived amount:</div>
-                        <div class="abf-value"><span class="abf-arrived">0.00000000</span> BTC</div>
+                    <div class="btca-list-item">
+                        <div class="btca-label">Arrived amount:</div>
+                        <div class="btca-value"><span class="btca-arrived">0.00000000</span> BTC</div>
                     </div>
-                    <div class="abf-list-item">
-                        <div class="abf-label">Remains to pay:</div>
-                        <div class="abf-value"><b><span class="abf-remains">' . $response_btc . '</span> BTC</b></div>
+                    <div class="btca-list-item">
+                        <div class="btca-label">Remains to pay:</div>
+                        <div class="btca-value"><b><span class="btca-remains">' . $response_btc . '</span> BTC</b></div>
                     </div>                                                           
-                    <div class="abf-list-item">
-                        <div class="abf-label">Date:</div>
-                        <div class="abf-value">'.date('Y-m-d').'</div>
+                    <div class="btca-list-item">
+                        <div class="btca-label">Date:</div>
+                        <div class="btca-value">'.date('Y-m-d').'</div>
                     </div>
-                    <div class="abf-list-item abf-tx-block">
-                        <div class="abf-label">Transaction(s):</div>
-                        <div class="abf-value abf-tx">
+                    <div class="btca-list-item btca-tx-block">
+                        <div class="btca-label">Transaction(s):</div>
+                        <div class="btca-value btca-tx">
                             No TX yet
                         </div>
                     </div>
-                    <div class="abf-list-item">
-                        <div class="abf-label">Status:</div>
-                        <div class="abf-value"><b><span class="abf-status">Loading data</span></b><div class="abf-refresh"></div></div>
+                    <div class="btca-list-item">
+                        <div class="btca-label">Status:</div>
+                        <div class="btca-value"><b><span class="btca-status">Loading data</span></b><div class="btca-refresh"></div></div>
                     </div>
                 </div>
             </div>
-            <div class="abf-info">
+            <div class="btca-info">
                 <p>If you are unable to complete your payment, you can try again later to place a new order with saved cart.<br>You can pay partially, but please do not close this window before next payment to prevent loss of bitcoin address and invoice number.
                 </p>
-                <p class="abf-right"><a href="https://apirone.com/" target="_blank"><img src="' . esc_url( plugins_url( 'apirone_logo.svg', __FILE__ ) ) . '"  alt=""></a></p>
-                <div class="abf-clear"></div>
+                <p class="btca-right"></p>
+                <div class="btca-clear"></div>
             </div>
         </div>
     </div>
-    <div class="abf-clear"></div>';
+    <div class="btca-clear"></div>';
                 }
                 if ((ABF_DEBUG == "yes") && !is_null($response_create)) {
                     if($response_create['callback_url'])
                         $this->abf_logger('[Info] Address: ' . $response_create['input_address'] . ' Callback: ' . $response_create['callback_url']);
                 }
             } else {
-                echo "Apirone couldn't exchange " . get_option('woocommerce_currency') . " to BTC :(";
+                echo "Crypto Processing couldn't exchange " . get_option('woocommerce_currency') . " to BTC :(";
             }
         }
         

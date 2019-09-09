@@ -2,8 +2,8 @@
 
 Requires PHP at least: 5.2
 
-Requires at least WooCommerce: 3.5.5
-Tested on Wordpress 5.1
+Requires at least WooCommerce: 4.0
+Tested up to: 4.9.7
 License: GPLv2 or later
 
 ## Description
